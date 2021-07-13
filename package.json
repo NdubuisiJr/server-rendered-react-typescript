@@ -7,7 +7,7 @@
     "dev": "nodemon --exec \"npm run build\" src/index.tsx",
     "serve": "nodemon --exec \"./node_modules/.bin/ts-node\" --ext js,jsx,ts,tsx --watch src server/server.ts",
     "start": "node dist/server/server.js",
-    "build": "webpack --config webpack/webpack.config.js --env env=prod",
+    "build": "webpack --config webpack/webpack.config.js",
     "build-prod": "rm -rf && cd server && tsc",
     "build-img": "docker build -t <image-name> ."
   },
@@ -55,6 +55,5 @@
     "webpack": "^5.39.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2",
-    "webpack-merge": "^5.8.0"
   }
 }
