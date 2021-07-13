@@ -2,7 +2,7 @@
 This is a project template for server-side rendered react application with node all written in typescript.
 
 ## Project Structure
-
+```
 build/
 |___ css/
 |___ images/
@@ -19,4 +19,4 @@ client/
 |___ index.tsx
 |
 webpack/
-
+```
