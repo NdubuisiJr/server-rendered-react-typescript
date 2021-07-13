@@ -1,0 +1,20 @@
+{
+  "name": "server-rendered-react-typescript",
+  "version": "1.0.0",
+  "description": "This is a project template for server-side rendered react application with node, all written in typescript both the server and the client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NdubuisiJr/server-rendered-react-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NdubuisiJr/server-rendered-react-typescript/issues"
+  },
+  "homepage": "https://github.com/NdubuisiJr/server-rendered-react-typescript#readme"
+}
