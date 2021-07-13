@@ -15,6 +15,7 @@ server.get('/', async (req:Request, res:Response, next:NextFunction) => {
     );
     res.send(data);
 });
+server.use(express.static('build')); 
 
 
 const GetBaseHtml = (): Promise<string> => {
