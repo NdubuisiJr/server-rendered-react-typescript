@@ -1,4 +1,4 @@
-FROM node:12
+FROM node
 
 COPY dist/ /src/dist/
 COPY build/ /src/build/
