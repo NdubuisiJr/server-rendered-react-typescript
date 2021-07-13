@@ -8,6 +8,9 @@ build/
 |___ images/
 |___ js/
 |
+dist/
+|___ server.js
+|
 server/
 |___ server.ts
 |___ tsconfig.json
