@@ -1,11 +1,11 @@
 # Server-Side Rendered React with Node and Typescript
 This is a project template for server-side rendered react application with node all written in typescript.
 
-<p>
+<div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" width="175">   
   <img style="margin:0px 30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png" width="175">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png" width="175">
-</p>
+</div>
 
 ## Project Structure
 ```
