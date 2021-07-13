@@ -4,11 +4,10 @@
   "description": "This is a project template for server-side rendered react application with node, all written in typescript both the server and the client",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec \"npm run build\" client/index.tsx",
+    "dev": "nodemon --exec \"webpack --config webpack/webpack.config.js\" client/index.tsx",
     "serve": "nodemon --exec \"./node_modules/.bin/ts-node\" --ext js,jsx,ts,tsx --watch client server/server.ts",
     "start": "node dist/server/server.js",
-    "build": "webpack --config webpack/webpack.config.js",
-    "build-prod": "rm -rf && cd server && tsc",
+    "build": "rm -rf && cd server && tsc",
     "build-img": "docker build -t <image-name> ."
   },
   "repository": {
