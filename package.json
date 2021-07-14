@@ -4,7 +4,7 @@
   "description": "This is a project template for server-side rendered react application with node, all written in typescript both the server and the client",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec \"webpack --config webpack/webpack.config.js\" client/index.tsx",
+    "dev": "nodemon --exec \"./node_modules/.bin/webpack --config webpack/webpack.config.js --env env=prod\" client/index.tsx",
     "serve": "nodemon --exec \"./node_modules/.bin/ts-node\" --ext js,jsx,ts,tsx --watch client server/server.ts",
     "start": "node dist/server/server.js",
     "build": "rm -rf && cd server && tsc",
@@ -34,6 +34,7 @@
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.14.5",
     "@babel/register": "^7.14.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
     "@types/body-parser": "^1.19.0",
     "@types/express": "^4.17.12",
     "@types/node": "^15.12.4",
@@ -41,18 +42,23 @@
     "@types/react-dom": "^17.0.8",
     "@types/react-router-dom": "^5.1.7",
     "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "html-webpack-plugin": "^5.3.1",
+    "ignore-styles": "^5.0.1",
     "nodemon": "^2.0.7",
     "prettier": "^2.3.1",
+    "react-refresh": "^0.9.0",
+    "style-loader": "^2.0.0",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.3",
     "webpack": "^5.39.1",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
   }
 }
